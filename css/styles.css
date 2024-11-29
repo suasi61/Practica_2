@@ -1,0 +1,45 @@
+
+.Imagen{
+    width: 1216px;
+    height: 600px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.imagen:hover{
+    opacity: 1;
+}
+
+.conateier{
+    width: 50%;
+    height: Hug (304px)px;
+    top: 360px;
+    left: 64px;
+    padding: 40px 0px 0px 0px;
+    gap: 24px;
+    border-radius: 12px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #E8E8EA
+    box-shadow: 0px 12px 24px -6px #181A2A1F;
+}
+
+.contenedor_tecnology{
+    width: 97px;
+    height: 28px;
+    padding: 4px 10px 4px 10px;
+    gap: 4px;
+    border-radius: 6px;
+    opacity: 1px;
+    background-color: #4B6BFB;
+    color: white;
+}
+
+nav{
+    width: 1,918px;
+    height: 100px;
+    padding: 32px 350px 32px 350px;
+    gap: 10px;
+    opacity: 0px;
+}
