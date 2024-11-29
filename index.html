@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Blog</title>
 </head>
 <body>
@@ -21,27 +22,35 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                     <a class="nav-link" href="#">Blog</a>
                     <a class="nav-link" href="#">Single Post</a>
-                    <a class="nav-link" href="#">Pages</a>
+                    <a class="nav-link" href="#">Contacte</a>
                 </div>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">
-                        <img src="img/magnifying-glass-solid.svg" alt="">
-                    </button>
-                </form>
+                <div>
+                    <form class="d-flex" role="search">
+                        <div class="search-input position-relative">
+                            <input type="search" class="form-control form-control-lg" placeholder="Buscar...">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="position-absolute top-50 end-0 translate-middle-y search-icon" width="25" height="25" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </form>
+                </div>
             </div>
         </nav>
     </header>
     <main>
+        <div>
         <img src="img/Image.png" alt="imagen" class="Imagen">
         <div class="conateier">
-            <div class="contenedor_tecnology">
-                <p>Tecnology</p>
+            <div>
+                <span class="badge text-bg-primary">Technology</span>
             </div>
-            <h1>The Impact of Technology on 
+            <h2>The Impact of Technology on 
                 the Workplace: How 
                 Technology is Changing
-            </h1>
+            </h2>
+            <div>
+                <p><img src="img/Image (1).png" alt="" class="imagen"> Jason Francisco  August 20, 2022</p>
+            </div>
         </div>
     </main>
 </body>
