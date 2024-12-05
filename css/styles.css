@@ -68,7 +68,7 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
     position: relative; 
     z-index: 2;
-    margin-top: -120px;
+    margin-top: -150px;
     margin-left: 20px;
 }
 
@@ -114,6 +114,11 @@ p{
     z-index: 2;
     display:inline-block;
 }
+
+.post h5{
+    color: #000;
+}
+
 
 .card {
     width: 300px; /* Ajusta según tus necesidades */
