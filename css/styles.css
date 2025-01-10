@@ -268,13 +268,14 @@ p{
     color: #000;
     text-align: start;
     margin: auto;
-    padding-left: 86px;
+    padding-left: 300px;
     padding-top: 50px;
+    position:revert;
 }
 
 .tracey{
     text-align: start;
-    padding-left: 86px;
+    
 }
 
 .text_single_post{
@@ -295,7 +296,7 @@ p{
     align-items: center;
     text-align: start;
     max-height: 320px;
-    padding-left: 100px;
+    padding-left: 200px;
 }
 
 .single_post h5{
@@ -307,7 +308,7 @@ p{
     align-items: center;
     text-align: start;
     max-height: 320px;
-    padding-left: 100px;
+    padding-left: 200px;
     font-family: "Work Sans", serif;
 }
 
@@ -349,4 +350,94 @@ p{
 
 .navbar{
     text-align: end;
+}
+
+
+
+.form-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007bff;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn-submit {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.back-link {
+    display: block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+
+.advertismento{
+    border-radius: 8px;
+}
+
+.imagen87{
+    padding-left: 80px;
 }
