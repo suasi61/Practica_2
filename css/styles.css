@@ -434,9 +434,22 @@ textarea {
 }
 
 
-.advertismento{
-    border-radius: 8px;
+
+.advertismento {
+    display: inline-block;
+    text-align: center;
+    background-color: #f8f9fa; /* Color de fondo opcional */
+    padding: 10px; /* Ajusta el padding si es necesario */
+    border-radius: 8px; /* Bordes redondeados opcionales */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
 }
+
+.advertismento p {
+    margin-top: 10px; /* Ajusta el espacio entre el texto y la imagen */
+    font-size: 1rem;
+    color: #555;
+}
+
 
 .imagen87{
     padding-left: 80px;
